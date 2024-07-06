@@ -5,13 +5,6 @@ def validarIdade(idade)
   return false
 end
 
-def validarIdade(idade)
-  if idade > 0 && idade < 100
-    return true
-  end
-  return false
-end
-
 def validarCPF(cpf)
   cpf = cpf.to_s
   if cpf.length == 11
